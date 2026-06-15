@@ -21,7 +21,7 @@ def load_model():
 @st.cache_data
 def load_candidates():
     candidates = []
-    path = "challenge/candidates.jsonl"
+    path = "candidates_sample.jsonl"
     if os.path.exists(path):
         with open(path, "rt") as f:
             for line in f:

@@ -12,7 +12,7 @@ start = time.time()
 #Load
 print("Loading candidates...")
 candidates = []
-with open("challenge/candidates.jsonl", "rt") as f:
+with open("candidates.jsonl", "rt") as f:
     for line in f:
         candidates.append(json.loads(line))
 print(f"Loaded: {len(candidates)}")
