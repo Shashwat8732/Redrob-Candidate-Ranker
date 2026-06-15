@@ -1,0 +1,101 @@
+candidate_id,rank,score,reasoning
+CAND_0018499,1,0.8478,Senior Machine Learning Engineer with 7.2yr exp; 10 AI core skills; response rate 0.61; strong overall fit.
+CAND_0039754,2,0.8458,Senior Applied Scientist with 16.2yr exp; 10 AI core skills; response rate 0.81; strong overall fit.
+CAND_0088025,3,0.8445,Staff Machine Learning Engineer with 8.6yr exp; 12 AI core skills; response rate 0.83; strong overall fit.
+CAND_0055905,4,0.843,Senior Machine Learning Engineer with 8.1yr exp; 9 AI core skills; response rate 0.87; strong overall fit.
+CAND_0077337,5,0.8421,Staff Machine Learning Engineer with 7.0yr exp; 12 AI core skills; response rate 0.95; strong overall fit.
+CAND_0006567,6,0.8371,Senior AI Engineer with 7.9yr exp; 7 AI core skills; response rate 0.79; strong overall fit.
+CAND_0071974,7,0.8364,Senior AI Engineer with 7.8yr exp; 12 AI core skills; response rate 0.76; strong overall fit.
+CAND_0011687,8,0.834,Senior NLP Engineer with 7.8yr exp; 10 AI core skills; response rate 0.89; strong overall fit.
+CAND_0093193,9,0.8231,Senior Machine Learning Engineer with 7.9yr exp; 8 AI core skills; response rate 0.61; strong overall fit.
+CAND_0061257,10,0.8213,Staff Machine Learning Engineer with 8.0yr exp; 5 AI core skills; response rate 0.87; strong overall fit.
+CAND_0046064,11,0.8212,Senior NLP Engineer with 8.9yr exp; 7 AI core skills; response rate 0.78; strong overall fit.
+CAND_0080766,12,0.816,Staff Machine Learning Engineer with 8.8yr exp; 11 AI core skills; response rate 0.66; strong overall fit.
+CAND_0091534,13,0.8139,AI Engineer with 16.6yr exp; 5 AI core skills; response rate 0.84; strong overall fit.
+CAND_0055992,14,0.8133,AI Engineer with 16.9yr exp; 8 AI core skills; response rate 0.72; strong overall fit.
+CAND_0064326,15,0.812,Search Engineer with 7.6yr exp; 7 AI core skills; response rate 0.94; strong overall fit.
+CAND_0037980,16,0.8114,Senior Applied Scientist with 9.0yr exp; 9 AI core skills; response rate 0.63; strong overall fit.
+CAND_0095619,17,0.8069,NLP Engineer with 15.6yr exp; 9 AI core skills; response rate 0.9; strong overall fit.
+CAND_0098846,18,0.8069,AI Engineer with 7.6yr exp; 7 AI core skills; response rate 0.62; strong overall fit.
+CAND_0096104,19,0.8055,AI Specialist with 7.0yr exp; 6 AI core skills; response rate 0.33; but low response rate (0.33).
+CAND_0002025,20,0.8018,Senior AI Engineer with 5.9yr exp; 11 AI core skills; response rate 0.8; strong overall fit.
+CAND_0008425,21,0.7959,Senior NLP Engineer with 7.8yr exp; 10 AI core skills; response rate 0.66; strong overall fit.
+CAND_0039383,22,0.7943,Applied ML Engineer with 7.1yr exp; 9 AI core skills; response rate 0.61; strong overall fit.
+CAND_0068811,23,0.7913,Applied ML Engineer with 8.0yr exp; 9 AI core skills; response rate 0.42; strong overall fit.
+CAND_0041669,24,0.7909,Recommendation Systems Engineer with 8.0yr exp; 9 AI core skills; response rate 0.77; strong overall fit.
+CAND_0017960,25,0.7906,Recommendation Systems Engineer with 7.7yr exp; 5 AI core skills; response rate 0.72; strong overall fit.
+CAND_0011432,26,0.7888,Senior Data Scientist with 7.6yr exp; 6 AI core skills; response rate 0.67; strong overall fit.
+CAND_0013536,27,0.7854,Applied ML Engineer with 14.1yr exp; 11 AI core skills; response rate 0.87; strong overall fit.
+CAND_0005649,28,0.7843,Senior Data Scientist with 7.4yr exp; 8 AI core skills; response rate 0.57; strong overall fit.
+CAND_0081846,29,0.7842,Lead AI Engineer with 6.7yr exp; 10 AI core skills; response rate 0.73; strong overall fit.
+CAND_0005538,30,0.7808,Senior AI Engineer with 5.9yr exp; 6 AI core skills; response rate 0.81; strong overall fit.
+CAND_0098454,31,0.7779,AI Specialist with 6.6yr exp; 7 AI core skills; response rate 0.87; strong overall fit.
+CAND_0005260,32,0.7716,Senior NLP Engineer with 5.2yr exp; 9 AI core skills; response rate 0.86; strong overall fit.
+CAND_0053527,33,0.7709,Junior ML Engineer with 7.0yr exp; 4 AI core skills; response rate 0.81; strong overall fit.
+CAND_0083879,34,0.7693,Machine Learning Engineer with 7.1yr exp; 5 AI core skills; response rate 0.47; strong overall fit.
+CAND_0065878,35,0.7691,Senior Data Scientist with 7.8yr exp; 7 AI core skills; response rate 0.48; strong overall fit.
+CAND_0087630,36,0.7665,AI Engineer with 7.2yr exp; 9 AI core skills; response rate 0.45; strong overall fit.
+CAND_0031593,37,0.7656,Search Engineer with 7.8yr exp; 6 AI core skills; response rate 0.58; strong overall fit.
+CAND_0015528,38,0.7653,Applied ML Engineer with 7.4yr exp; 8 AI core skills; response rate 0.53; strong overall fit.
+CAND_0007009,39,0.765,Recommendation Systems Engineer with 7.9yr exp; 9 AI core skills; response rate 0.62; strong overall fit.
+CAND_0010770,40,0.7642,Recommendation Systems Engineer with 15.2yr exp; 6 AI core skills; response rate 0.73; strong overall fit.
+CAND_0025640,41,0.7633,AI Research Engineer with 5.6yr exp; 8 AI core skills; response rate 0.87; strong overall fit.
+CAND_0024878,42,0.7626,AI Specialist with 5.7yr exp; 8 AI core skills; response rate 0.84; strong overall fit.
+CAND_0030468,43,0.7622,Senior Applied Scientist with 5.4yr exp; 7 AI core skills; response rate 0.78; strong overall fit.
+CAND_0076035,44,0.7615,AI Specialist with 7.0yr exp; 4 AI core skills; response rate 0.73; strong overall fit.
+CAND_0043860,45,0.7613,Junior ML Engineer with 6.1yr exp; 6 AI core skills; response rate 0.81; strong overall fit.
+CAND_0073007,46,0.7611,AI Specialist with 5.8yr exp; 5 AI core skills; response rate 0.83; strong overall fit.
+CAND_0030953,47,0.7602,Search Engineer with 7.8yr exp; 7 AI core skills; response rate 0.63; strong overall fit.
+CAND_0053591,48,0.7594,AI Engineer with 5.3yr exp; 8 AI core skills; response rate 0.81; strong overall fit.
+CAND_0004402,49,0.7582,AI Research Engineer with 6.0yr exp; 6 AI core skills; response rate 0.83; strong overall fit.
+CAND_0014440,50,0.7559,Recommendation Systems Engineer with 6.4yr exp; 6 AI core skills; response rate 0.64; strong overall fit.
+CAND_0072660,51,0.7549,Machine Learning Engineer with 7.1yr exp; 9 AI core skills; response rate 0.53; strong overall fit.
+CAND_0029367,52,0.7546,Senior Data Scientist with 5.7yr exp; 11 AI core skills; response rate 0.77; strong overall fit.
+CAND_0076163,53,0.7538,NLP Engineer with 6.9yr exp; 9 AI core skills; response rate 0.84; strong overall fit.
+CAND_0093331,54,0.7532,NLP Engineer with 16.1yr exp; 7 AI core skills; response rate 0.41; strong overall fit.
+CAND_0070514,55,0.7502,AI Specialist with 5.5yr exp; 6 AI core skills; response rate 0.8; strong overall fit.
+CAND_0029439,56,0.7494,AI Specialist with 6.4yr exp; 7 AI core skills; response rate 0.6; strong overall fit.
+CAND_0049896,57,0.7486,Search Engineer with 7.3yr exp; 8 AI core skills; response rate 0.43; strong overall fit.
+CAND_0020845,58,0.7484,AI Research Engineer with 7.0yr exp; 3 AI core skills; response rate 0.35; but low response rate (0.35).
+CAND_0010685,59,0.7475,NLP Engineer with 6.7yr exp; 5 AI core skills; response rate 0.83; strong overall fit.
+CAND_0093912,60,0.7457,Senior Data Scientist with 5.3yr exp; 5 AI core skills; response rate 0.66; strong overall fit.
+CAND_0076251,61,0.7455,Search Engineer with 7.6yr exp; 7 AI core skills; response rate 0.51; strong overall fit.
+CAND_0079387,62,0.7452,AI Engineer with 6.9yr exp; 7 AI core skills; response rate 0.81; strong overall fit.
+CAND_0086022,63,0.7448,Senior Applied Scientist with 5.3yr exp; 14 AI core skills; response rate 0.55; strong overall fit.
+CAND_0069905,64,0.7443,Applied ML Engineer with 6.6yr exp; 8 AI core skills; response rate 0.78; strong overall fit.
+CAND_0024620,65,0.7434,AI Engineer with 5.9yr exp; 7 AI core skills; response rate 0.41; strong overall fit.
+CAND_0049540,66,0.7434,ML Engineer with 6.8yr exp; 4 AI core skills; response rate 0.86; strong overall fit.
+CAND_0018722,67,0.7432,Recommendation Systems Engineer with 6.6yr exp; 6 AI core skills; response rate 0.79; strong overall fit.
+CAND_0028527,68,0.7423,AI Specialist with 5.4yr exp; 6 AI core skills; response rate 0.9; strong overall fit.
+CAND_0011327,69,0.7413,AI Research Engineer with 6.3yr exp; 3 AI core skills; response rate 0.79; strong overall fit.
+CAND_0043637,70,0.7413,Junior ML Engineer with 5.5yr exp; 4 AI core skills; response rate 0.92; strong overall fit.
+CAND_0081852,71,0.7413,Senior Data Scientist with 5.9yr exp; 7 AI core skills; response rate 0.44; strong overall fit.
+CAND_0052682,72,0.7411,NLP Engineer with 6.6yr exp; 7 AI core skills; response rate 0.88; strong overall fit.
+CAND_0066999,73,0.7409,Recommendation Systems Engineer with 5.9yr exp; 7 AI core skills; response rate 0.63; strong overall fit.
+CAND_0085851,74,0.7405,ML Engineer with 7.0yr exp; 4 AI core skills; response rate 0.37; but low response rate (0.37).
+CAND_0086154,75,0.7405,Data Scientist with 6.8yr exp; 2 AI core skills; response rate 0.9; strong overall fit.
+CAND_0077261,76,0.7399,AI Specialist with 5.7yr exp; 7 AI core skills; response rate 0.81; strong overall fit.
+CAND_0065195,77,0.7397,Search Engineer with 5.1yr exp; 7 AI core skills; response rate 0.8; strong overall fit.
+CAND_0074735,78,0.7395,Applied ML Engineer with 5.5yr exp; 7 AI core skills; response rate 0.77; strong overall fit.
+CAND_0078002,79,0.7384,Machine Learning Engineer with 6.3yr exp; 7 AI core skills; response rate 0.86; strong overall fit.
+CAND_0010603,80,0.7355,ML Engineer with 5.3yr exp; 5 AI core skills; response rate 0.94; strong overall fit.
+CAND_0042029,81,0.7353,Senior Data Scientist with 6.5yr exp; 8 AI core skills; response rate 0.67; strong overall fit.
+CAND_0068351,82,0.7351,Lead AI Engineer with 6.4yr exp; 9 AI core skills; response rate 0.86; strong overall fit.
+CAND_0036184,83,0.7336,Recommendation Systems Engineer with 6.0yr exp; 11 AI core skills; response rate 0.9; strong overall fit.
+CAND_0050454,84,0.7336,AI Engineer with 6.8yr exp; 10 AI core skills; response rate 0.77; strong overall fit.
+CAND_0094165,85,0.7332,AI Research Engineer with 5.8yr exp; 3 AI core skills; response rate 0.78; strong overall fit.
+CAND_0083852,86,0.7328,Data Scientist with 6.0yr exp; 7 AI core skills; response rate 0.85; strong overall fit.
+CAND_0098952,87,0.7326,AI Research Engineer with 5.5yr exp; 5 AI core skills; response rate 0.66; strong overall fit.
+CAND_0073883,88,0.7323,AI Specialist with 5.3yr exp; 5 AI core skills; response rate 0.92; strong overall fit.
+CAND_0099401,89,0.7322,NLP Engineer with 7.7yr exp; 5 AI core skills; response rate 0.42; strong overall fit.
+CAND_0016170,90,0.7321,AI Research Engineer with 6.8yr exp; 5 AI core skills; response rate 0.52; strong overall fit.
+CAND_0041610,91,0.732,Recommendation Systems Engineer with 6.7yr exp; 9 AI core skills; response rate 0.52; strong overall fit.
+CAND_0068932,92,0.7319,ML Engineer with 5.2yr exp; 4 AI core skills; response rate 0.82; strong overall fit.
+CAND_0052335,93,0.7318,Applied ML Engineer with 6.4yr exp; 5 AI core skills; response rate 0.79; strong overall fit.
+CAND_0048558,94,0.7315,Data Scientist with 6.7yr exp; 4 AI core skills; response rate 0.8; strong overall fit.
+CAND_0077067,95,0.7314,AI Specialist with 5.4yr exp; 4 AI core skills; response rate 0.83; strong overall fit.
+CAND_0052706,96,0.7312,AI Research Engineer with 5.1yr exp; 6 AI core skills; response rate 0.79; strong overall fit.
+CAND_0047721,97,0.7309,Senior Data Scientist with 7.0yr exp; 8 AI core skills; response rate 0.49; strong overall fit.
+CAND_0011162,98,0.7307,Recommendation Systems Engineer with 5.8yr exp; 11 AI core skills; response rate 0.75; strong overall fit.
+CAND_0033179,99,0.7305,AI Research Engineer with 6.9yr exp; 6 AI core skills; response rate 0.84; strong overall fit.
+CAND_0078492,100,0.7303,Recommendation Systems Engineer with 5.1yr exp; 8 AI core skills; response rate 0.7; strong overall fit.
