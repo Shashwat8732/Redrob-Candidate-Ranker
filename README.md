@@ -1,23 +1,28 @@
 # Redrob Candidate Ranker
 
-An intelligent candidate ranking system for the Senior AI Engineer role at Redrob AI.
-Ranks 100,000 candidates and outputs the top 100 best-fit candidates with scores
-and reasoning.
+An intelligent candidate ranking system for the Senior AI Engineer role at
+Redrob AI. Ranks 100,000 candidates and outputs the top 100 best-fit
+candidates with scores and reasoning.
 
 ## Project Structure
 
-This repository contains two entry points, each serving a different purpose
-required by the submission spec:
+This repo has two entry points, each required by the submission spec:
 
-| File | Purpose | How to run |
+| File | Purpose | Run with |
 |---|---|---|
-| `filter.py` | Full pipeline on all 100,000 candidates → produces `submission.csv` | `python filter.py` |
-| `app.py` | Interactive Streamlit demo for the sandbox requirement — same logic, runs on a sample, lets you edit the JD and explore results | `streamlit run app.py` |
+| `filter.py` | Full pipeline on all 100,000 candidates → produces `submission.csv` (used for Stage 3 reproduction) | `python filter.py` |
+| `app.py` | Interactive Streamlit sandbox demo — same logic, runs on a small sample, lets you edit the JD and explore results | `streamlit run app.py` |
 
-Both files implement **identical scoring logic** (filters, embeddings, behavioral
-scoring, penalties). `filter.py` is the reproducible terminal script used to
-generate the official submission; `app.py` is the hosted sandbox where the
-ranking pipeline can be verified interactively in a browser.
+Both files implement **identical scoring logic** (filters, embeddings,
+behavioral scoring, penalties). They differ only in interface and data size.
+
+## File Paths
+
+| File | Expects data at | Notes |
+|---|---|---|
+| `filter.py` | `candidates.jsonl` (repo root) | Full 100K dataset. Not included in repo (too large) — place it here for reproduction. |
+| `app.py` | `candidates_sample.jsonl` (repo root) | 1000-candidate subset, included in repo for the sandbox demo. |
+| both | `minilm_model/` (repo root) | Pre-downloaded MiniLM model, included in repo for offline execution. |
 
 ## Setup
 
@@ -25,15 +30,16 @@ ranking pipeline can be verified interactively in a browser.
 pip install -r requirements.txt
 ```
 
-## Run — produces submission.csv
+## Run — produces submission.csv (Stage 3 reproduction)
 
 ```bash
+cp /path/to/candidates.jsonl ./candidates.jsonl
 python filter.py
 ```
 
-**Note on offline execution:** The MiniLM model (`all-MiniLM-L6-v2`) is included
-in this repo under `minilm_model/`, pre-downloaded, so the ranking step runs
-fully offline — no network calls, no GPU. Completes in ~3-9 seconds on CPU.
+**Offline execution:** The MiniLM model (`all-MiniLM-L6-v2`) is pre-downloaded
+in `minilm_model/`, so ranking runs fully offline — no network calls, no GPU.
+Completes in ~3-9 seconds on CPU for 100,000 candidates.
 
 ## Sandbox demo
 
@@ -41,8 +47,9 @@ fully offline — no network calls, no GPU. Completes in ~3-9 seconds on CPU.
 streamlit run app.py
 ```
 
-Edit the JD in the text box, click "Rank Candidates", view the top results in
-an interactive table, and download `submission.csv`.
+Uses the pre-loaded `candidates_sample.jsonl` (1000 candidates). Edit the JD,
+click "Rank Candidates", view results in an interactive table, and download
+`submission.csv`.
 
 ## Approach
 
@@ -58,19 +65,18 @@ an interactive table, and download `submission.csv`.
 
 ### Stage 2 — Semantic Relevance Score (weight: 0.45)
 - MiniLM (`all-MiniLM-L6-v2`) sentence embeddings
-- Cosine similarity between the JD text and each candidate's
+- Cosine similarity between JD text and each candidate's
   summary + headline + skills + career history descriptions
 
 ### Stage 3 — Experience Score (weight: 0.30)
 - 7+ years → 1.0
 - 5-7 years → 0.8
-- (<5 years already filtered out in Stage 1)
 
 ### Stage 4 — Behavioral Score (weight: 0.25)
 Combines all 23 Redrob signals — login recency, response rate, interview
 completion rate, GitHub activity, verification status, notice period,
 salary fit, relocation willingness, profile completeness, and more —
-into a single weighted score.
+into a weighted score.
 
 ### Final Penalties
 - Notice period > 90 days → score × 0.90
@@ -78,9 +84,9 @@ into a single weighted score.
 
 ### Reasoning Generation
 Each of the top 100 candidates gets a short, factual reasoning string
-referencing their title, years of experience, count of AI-relevant skills,
-and response rate — with an honest flag when notice period or response
-rate is a concern.
+referencing title, years of experience, count of AI-relevant skills, and
+response rate — with an honest concern flag when notice period or response
+rate is weak.
 
 ## Results
 
@@ -91,4 +97,3 @@ rate is a concern.
 
 ## AI Tools Used
 Claude (Anthropic) for debugging
-
