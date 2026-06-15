@@ -1,0 +1,7 @@
+embeddings.npy
+tempCodeRunnerFile.py
+__pycache__/
+*.pyc
+.DS_Store
+.vscode/
+challenge/candidates.jsonl
