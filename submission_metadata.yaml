@@ -1,0 +1,71 @@
+# Redrob Hackathon — Submission Metadata
+
+# Team identity
+
+team_name: "AlphaIntellect"
+
+primary_contact:
+  name: "Shashwat Raj"
+  email: "shashwatraj8732@gmail.com"
+  phone: "+91-8789234087"
+
+team_members:
+  - name: "Shashwat Raj"
+    email: "shashwatraj8732@gmail.com"
+    role: "ML Engineer"
+
+
+# Code and reproducibility
+
+github_repo: "https://github.com/Shashwat8732/Redrob-Candidate-Ranker"
+
+sandbox_link: "https://redrob-candidate-ranker-alphaintellect.streamlit.app"
+
+reproduce_command: "python filter.py"
+
+# Compute environment
+
+compute:
+  platform: "MacBook Air"
+  cpu_cores: 8
+  ram_gb: 8
+  python_version: "3.11"
+  os: "macOS"
+  uses_gpu_for_inference: false
+  has_network_during_ranking: false
+  pre_computation_required: true
+  pre_computation_time_minutes: 2
+
+# AI tools declaration
+
+ai_tools_used:
+  - "Claude"
+
+ai_usage_summary: |
+  Used Claude (Anthropic) debugging.
+  
+# Approach summary
+
+methodology_summary: |
+  Four-stage pipeline for intelligent candidate ranking. Stage 1 applies
+  hard filters — experience threshold (5yr min), industry check (product
+  vs service companies), domain exclusion (CV/Speech/ASR), title rejection
+  (non-ML roles), and honeypot detection (expert skill with <6 months usage,
+  mathematically impossible tenure). Stage 2 computes semantic relevance
+  using MiniLM (all-MiniLM-L6-v2) sentence embeddings with cosine similarity
+  against the JD (weight 0.45). Stage 3 scores experience (weight 0.30):
+  7+ years = 1.0, 5-7 years = 0.8. Stage 4 combines all 23 Redrob behavioral
+  signals — login recency, response rate, interview completion, GitHub
+  activity, verification status, notice period, salary fit, relocation
+  willingness, and more — into a weighted behavioral score (weight 0.25).
+  Final penalties applied for notice period >90 days and recruiter response
+  rate <0.20. Runtime: ~3-9 seconds on CPU for 100K candidates.
+
+# Declarations
+
+declarations:
+  read_submission_spec: true
+  code_is_original_work: true
+  no_collusion: true
+  honeypot_check_done: true
+  reproduction_tested: true
