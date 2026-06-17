@@ -298,7 +298,7 @@ if st.button("🚀 Rank Candidates", type="primary"):
             c['candidate_id'], rank, score, reasoning])
 
     st.download_button(
-        "📥 Download submission.csv",
+        "📥 Download team_AlphaIntellect.csv",
         output.getvalue(),
-        "submission.csv",
+        "team_AlphaIntellect.csv",
         "text/csv")
