@@ -349,15 +349,15 @@ def make_reasoning(c, score):
 
     base = (
         f"{p['current_title']} with {p['years_of_experience']}yr exp; "
-        f"{ai_count} AI core skills; response rate {rr}"
+        f"{ai_count} AI core skills"
     )
 
     if concerns:
         return base + "; but " + ", ".join(concerns) + "."
     else:
-        return base + "; strong overall fit."
+        return base + f"; response rate {rr}; strong overall fit."
 #CSV
-with open('submission.csv', 'w', newline='', encoding='utf-8') as f:
+with open('team_AlphaIntellect.csv', 'w', newline='', encoding='utf-8') as f:
     writer = csv.writer(f)
     writer.writerow(['candidate_id', 'rank', 'score', 'reasoning'])
     for rank, (score, c) in enumerate(scored[:100], start=1):
@@ -366,10 +366,10 @@ with open('submission.csv', 'w', newline='', encoding='utf-8') as f:
             make_reasoning(c, score)
         ])
 
-print("\nCSV ready: submission.csv")
+print("\nCSV ready: team_AlphaIntellect.csv")
 
 #Validate
-with open('submission.csv', 'r') as f:
+with open('team_AlphaIntellect.csv', 'r') as f:
     rows = list(csv.DictReader(f))
 scores = [float(r['score']) for r in rows]
 ok = all(scores[i] >= scores[i+1] for i in range(len(scores)-1))
@@ -385,7 +385,7 @@ print(f"\nTotal time: {elapsed:.1f} seconds")
 
 
 
-with open('submission.csv', 'r') as f:
+with open('team_AlphaIntellect.csv', 'r') as f:
     content = f.read()
 print(content)
 
