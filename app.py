@@ -9,6 +9,11 @@ from sklearn.metrics.pairwise import cosine_similarity
 st.set_page_config(page_title="Redrob Candidate Ranker", layout="wide")
 st.title("🎯 Redrob Candidate Ranker")
 st.caption("Senior AI Engineer — Intelligent Candidate Discovery")
+st.info(
+    "ℹ️ **Sandbox Note:** This demo runs on a 1,000-candidate sample. "
+    "Results may differ from the full submission (100K candidates). "
+    "Pipeline logic is identical — for full reproduction run `python filter.py`."
+)
 
 #Load Model
 @st.cache_resource
